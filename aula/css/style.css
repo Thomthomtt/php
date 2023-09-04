@@ -1,40 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    color: #585859;
 }
 #titulo{
     text-align: center;
+    margin-top: 3%;
 }
 .campo{
-    display: relative;
+    display: block;
     position: absolute;
-    top: 45%;
-    left: 27%;
+    top: 35%;
+    left: 42%;
     transform: translate(-50% -50%);
     border: none;
     padding: 0;
     margin: 0;
+    
 }
 #botao{
-        display: relative;    
+        display: block;    
         position: absolute;
-        top: 70%;
-        left: 55%;
+        top: 91%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        width: 0;
-}
+        width: 10%;
+        background-color: #0D0D0D;
+        font-family: 'Black Ops One', cursive;
+        font-size: large;
+        border: 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 50% 20% / 10% 40%;
+    }
+    #botao:hover{
+        background-color: #585859;
+        color: #F0F0F2;
+        font-size: larger;
+    }
 .caixa{
-    float: left;
     margin: 5%;
 }
-.caixa2{
-    float: left;
-    margin: 5%;
-}
+
 label{
-    font-size: 200% ;
+    display: block;
+    font-size: 100%;
+    margin-top: 20px;
 }
 input {
-    padding: 3%;
+    background-color: #D7D7D9;
+    padding: 10%;
     border-radius: 0.9em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: none;
 }

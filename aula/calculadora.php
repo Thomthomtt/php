@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Calculadora</title>
 </head>
 <body>
@@ -22,8 +22,9 @@
             <label for="num2">Número 2:</label>
             <input type="text" name="num2" id="num2">    
             </div>   
-            <button type="submit" id="botao">Calcular</button>  
-        </fieldset>
+           
+        </fieldset> 
+        <button type="submit" id="botao">Calcular</button>  
         </form>
         </body>
         </html>

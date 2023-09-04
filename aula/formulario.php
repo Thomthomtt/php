@@ -23,11 +23,11 @@
             <label for="sobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobrenome" value="Sobrenome">
         </div>    
-             <div class="caixa2">  
+             <div class="caixa">  
             <label for="login" class="caixa_texto">Login:</label>
             <input type="text" name="login" id="login" value="Login">
          </div>
-         <div class="caixa2">
+         <div class="caixa">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha" value="Senha">  
             </div>

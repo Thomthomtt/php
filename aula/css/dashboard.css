@@ -1,20 +1,29 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
 #intro{
     text-align: center;
-    color: #555;
+    color: #0D0D0D;
     font-size: 500%;
     padding: 0;
     margin: 0;
 }
 body{
 font-family: 'Black Ops One', cursive;
-  background: tomato;
+  background: #F0F0F2;
 }
 
 .menu{
-  text-align:center;
-  margin-top:9em;
-}
+  
+  display: flex;
+  position: relative;
+  top: 60%;
+  left: 27%;
+  transform: translate(-50% -50%);
+  }
+
 
 .menu ul{
   display:inline-block;
@@ -30,7 +39,7 @@ font-family: 'Black Ops One', cursive;
   border-right:1px solid #eee;
   box-shadow:0 20px 20px rgba(0,0,0,0.1);
   text-transform:uppercase;
-  color:#555;
+  color: #0D0D0D;
   font-weight:bolder;
   transition:all 0.3s linear;
 }

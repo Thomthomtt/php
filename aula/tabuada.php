@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Tabuada</title>
+
 </head>
 <body>
 <?php 
@@ -13,8 +15,8 @@
     <div class="caixa"> 
     <label for="numero"> </label>
     <input type="text" name="numero" id="numero">
-    <button type="submit" id="botao">Tabuada</button>
     </div>
+     <button type="submit" id="botao">Tabuada</button>
 </form>
 
     
