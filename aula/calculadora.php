@@ -24,6 +24,7 @@
             </div>   
            
         </fieldset> 
+            <!--Falta alterar a altura do botao-->
         <button type="submit" id="botao">Calcular</button>  
         </form>
         </body>
