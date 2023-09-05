@@ -30,9 +30,9 @@
          <div class="caixa">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha" value="Senha">  
-            </div>
+            </div> <br>   
+              <button type="submit" id="botao">Enviar</button>
         </fieldset>
-      <button type="submit" id="botao">Enviar</button>
     </form> 
 </body>
 </html>

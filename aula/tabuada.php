@@ -12,13 +12,16 @@
   include_once('index.php')
   ?>
 <form action="tabuada_result.php" method="post">
-    <div class="caixa"> 
-    <label for="numero"> </label>
-        <!--Falta alterar tamnho do input-->
-    <input type="text" name="numero" id="numero">
-    </div>
-    <!--Falta alterar a altura do botao-->
-     <button type="submit" id="botao">Tabuada</button>
+    <fieldset class="campo">
+        <h1 id="titulo">Tabuada</h1>
+        <div class="caixa"> 
+             <label for="numero"> </label>
+             <input type="text" name="numero" id="numero"> 
+       </div> <br>
+             <button type="submit" id="botao">Tabuada</button>
+     
+    </fieldset>
+
 </form>
 
     

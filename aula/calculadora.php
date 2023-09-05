@@ -21,11 +21,12 @@
          <div class="caixa">
             <label for="num2">Número 2:</label>
             <input type="text" name="num2" id="num2">    
-            </div>   
-           
+            </div>
+            <br>
+             <button type="submit" id="botao">Calcular</button>      
         </fieldset> 
             <!--Falta alterar a altura do botao-->
-        <button type="submit" id="botao">Calcular</button>  
+
         </form>
         </body>
         </html>
