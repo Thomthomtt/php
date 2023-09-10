@@ -14,16 +14,24 @@
 <?php 
   include_once('index.php')
   ?>
+  <div class="barra">
     <h1 id="intro">Dashboard</h1>
-    <div class="menu">
+    <div class="menu"> 
         <ul>  
-        <li><a href="login.php">Login</a></li>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="formulario.php">Formulário</a></li>
-        <li><a href="calculadora.php">Calculadora</a></li>
-        <li><a href="tabuada.php">Tabuada</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="#">Aula 1</a>   
+                    <ul> <li><a href="formulario.php">Formulario</a></li>
+                    </ul>
+            </li>
+            <li><a href="#">Aula 2</a>
+                    <ul>    <li><a href="calculadora.php">Calculadora</a></li> 
+                            <li><a href="tabuada.php">Tabuada</a></li>
+                    </ul>    
+            </li>
+        <li><a href="#">Aula 3</a></li>
     
     </div>
-    
+    </div>
 </body>
 </html>
