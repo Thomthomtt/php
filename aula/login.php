@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Formulario</title>
+    <title>Login</title>
 </head>
 <body>
   <?php 
@@ -13,9 +13,7 @@
   ?>
     <form action="verifica_login.php" method="post">
         <h1 id="titulo">Login</h1>
-        </div>
         <fieldset class="campo">
-        </div>    
              <div class="caixa">  
             <label for="login" class="caixa_texto">Login:</label>
             <input type="text" name="login" id="login" value="Admin">

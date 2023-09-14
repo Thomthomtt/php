@@ -13,7 +13,6 @@
   ?>
     <form action="recebe_dados.php" method="post">
         <h1 id="titulo">Formulário de Cadastro</h1>
-        </div>
         <fieldset class="campo">
          <div class="caixa">  
             <label for="nome">Nome:</label>
@@ -23,14 +22,14 @@
             <label for="sobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="sobrenome" value="Sobrenome">
         </div>    
-             <div class="caixa">  
+          <div class="caixa">  
             <label for="login" class="caixa_texto">Login:</label>
             <input type="text" name="login" id="login" value="Login">
          </div>
          <div class="caixa">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha" value="Senha">  
-            </div> <br>   
+        </div> <br>   
               <button type="submit" id="botao">Enviar</button>
         </fieldset>
     </form> 

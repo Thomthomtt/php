@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,12 @@
                             <li><a href="tabuada.php">Tabuada</a></li>
                     </ul>    
             </li>
-        <li><a href="#">Aula 3</a></li>
+        <li><a href="#">Aula 3</a>
+            <ul>    
+                <li><a href="data_hora.php">Relogio</a></li> 
+    
+            </ul> 
+        </li>
     
     </div>
     </div>
