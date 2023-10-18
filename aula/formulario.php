@@ -11,7 +11,7 @@
   <?php 
   include_once('index.php')
   ?>
-    <form action="recebe_dados.php" method="post">
+    <form action="cadastro_login.php" method="post">
         <h1 id="titulo">Formulário de Cadastro</h1>
         <fieldset class="campo">
          <div class="caixa">  
@@ -29,8 +29,25 @@
          <div class="caixa">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha" value="Senha">  
-        </div> <br>   
-              <button type="submit" id="botao">Enviar</button>
+        </div><br> 
+        <div class="caixa">
+            <label for="estcivil">Qual seu estado civil?</label>
+              <select name="estcivil" id="estcivil">
+              <option value="">Solteiro</option>
+              <option value="">Casado</option>
+              <option value="">Separado</option>
+              <option value="">Divorciado</option>
+              <option value="">Viúvo</option>
+            </select>
+            <div class="caixa">
+              <label for="sexo">Qual o seu sexo?</label>
+              <input type="radio" id="sexom" name="sexo" value="masculino">
+              <label for="sexom">Masculino</label>
+              <input type="radio" id="sexof" name="sexo" value="feminino">
+              <label for="sexof">Feminino</label>
+              <input type="radio" id="sexou" name="sexo" value="prefer">
+              <label for="sexou">Prefiro não dizer</label>
+            <button type="submit" id="botao">Enviar</button>
         </fieldset>
     </form> 
 </body>
