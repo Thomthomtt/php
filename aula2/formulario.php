@@ -29,7 +29,7 @@
          <div class="caixa">
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha" value="Senha">  
-        </div><br> 
+        </div>
         <div class="caixa">
             <label for="estcivil">Qual seu estado civil?</label>
               <select name="estcivil" id="estcivil">
@@ -39,6 +39,7 @@
               <option value="divorciado">Divorciado</option>
               <option value="viuvo">Viúvo</option>
             </select>
+        </div>
             <div class="caixa">
               <label for="sexo">Qual o seu sexo?</label>
               <input type="radio" id="sexo" name="sexo" value="masculino">
@@ -46,7 +47,9 @@
               <input type="radio" id="sexo" name="sexo" value="feminino">
               <label for="sexo">Feminino</label>
               <input type="radio" id="sexo" name="sexo" value="prefer">
-              <label for="sexo">Prefiro não dizer</label>
+              <label for="sexo">Prefiro não dizer</label><br>
+            </div>
+            <a href="selecionar_cadastro.php">Cadastros</a>
             <button type="submit" id="botao">Enviar</button>
         </fieldset>
     </form> 

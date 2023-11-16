@@ -1,4 +1,7 @@
 <!--Pagina de Loading-->
+    <?php
+    header ("refresh: 3;url=selecionar_cadastro.php");
+    ?>
     <html>
     <head><style type="text/css">
 .newtons-cradle {

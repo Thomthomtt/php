@@ -1,3 +1,4 @@
+        <?php include ('index.php')?>
         <table border="1">
     <tr>
         <th>ID</th>

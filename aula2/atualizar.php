@@ -13,6 +13,6 @@ $_query =  "UPDATE tb_login SET nome = '$_nome', sobrenome = '$_sobrenome', estc
  
 mysqli_query ($conexao, $_query);
 
-header ("refresh: 3;url=selecionar_cadastro.php");
+header ("refresh: 1;url=load.php");
 
 ?>
