@@ -7,9 +7,10 @@ $_estcivil = $_POST["estcivil"];
 $_sexo = $_POST["sexo"];
 $_login = $_POST["login"];
 $_senha = $_POST["senha"];
-$query = "  INSERT INTO tb_login (id, nome, sobrenome, sexo, estcivil, login, senha, status)
+$query = "  INSERT INTO tb_login (id, nome, sobrenome, sexo, estcivil, login, senha, data, status)
 VALUES 
-('', '$_nome', '$_sobrenome','$_estcivil','$_sexo', '$_login', '$_senha',  default);";
+('', '$_nome', '$_sobrenome','$_estcivil','$_sexo', '$_login', '$_senha', now(), default);";
 mysqli_query ($conexao, $query);
 
+header ("refresh: 1;url=load.php");
 ?>
