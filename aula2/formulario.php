@@ -40,15 +40,15 @@
               <option value="viuvo">Viúvo</option>
             </select>
         </div>
-            <div class="caixa">
-              <label for="sexo">Qual o seu sexo?</label>
-              <input type="radio" id="sexo" name="sexo" value="masculino">
-              <label for="sexo">Masculino</label>
-              <input type="radio" id="sexo" name="sexo" value="feminino">
-              <label for="sexo">Feminino</label>
-              <input type="radio" id="sexo" name="sexo" value="prefer">
+        <div>
+              <label for="sexo">Qual o seu sexo?</label><br>
+              <label for="sexo">Masculino</label><br>
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="masculino">
+              <label for="sexo">Feminino</label><br>
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="feminino">
               <label for="sexo">Prefiro não dizer</label><br>
-            </div>
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="prefer">
+        </div>
             <a href="selecionar_cadastro.php">Cadastros</a>
             <button type="submit" id="botao">Enviar</button>
         </fieldset>

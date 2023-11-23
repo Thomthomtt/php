@@ -34,11 +34,11 @@
 }
 
 
- label{
+label{
     font-size: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
 }
-input, select, radio, option {
+input {
     display: flex;
     justify-content: center;
     background-color: #D7D7D9;
@@ -46,4 +46,18 @@ input, select, radio, option {
     border-radius: 0.9em;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;
+} 
+select{
+    background-color: #D7D7D9;
+    border-radius: 0.9em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: none;
+}
+div .sexo{
+    float: right;
+    margin-top: -11%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    margin-right: 105%;
+
 }
