@@ -4,7 +4,7 @@ include ("index.php");
 $_id = $_GET["id"];
 
 
-$query = "SELECT id, nome, sobrenome, estcivil, sexo, login, senha, data, status FROM tb_login WHERE id =".$_id;
+$query = "SELECT * FROM tb_login WHERE id =".$_id;
 $result = mysqli_query ($conexao, $query) or die ("erro no select");
    
 while ($linha = mysqli_fetch_array($result)) {
@@ -13,28 +13,27 @@ while ($linha = mysqli_fetch_array($result)) {
         echo ("Nome: <input type='text' name='nome' value=".$linha['nome']."></br>");
         echo ("Sobrenome: <input type='text' name='sobrenome' value=".$linha['sobrenome']."></br>");
        
-if($linha['estcivil'] == "Casado"){
-
+if($linha['estcivil'] == "casado"){
 $casado= "selected";
 $solteiro = "";
 $separado = "";
 $divorciado = "";
 $viuvo = "";
-}else if($linha['estcivil'] == "Solteiro"){
+}else if($linha['estcivil'] == "solteiro"){
     $casado= "";
     $solteiro = "selected";
     $separado = "";
     $divorciado = "";
     $viuvo = "";
 
-    }else if($linha['estcivil'] == "Separado"){
+    }else if($linha['estcivil'] == "separado"){
         $casado= "";
         $solteiro = "";
         $separado = "selected";
         $divorciado = "";
         $viuvo = "";
 
-        }else if($linha['estcivil'] == "Divorciado"){
+        }else if($linha['estcivil'] == "divorciado"){
             $casado= "";
             $solteiro = "";
             $separado = "";
@@ -48,19 +47,19 @@ $viuvo = "";
                 $viuvo = "selected";
             }
         echo ("Estado Civil: <select name='estcivil'> 
-        <option value='Solteiro'".$solteiro." >Solteiro</option>
-        <option value='Casado'".$casado." >Casado</option>
-        <option value='Separado'". $separado." >Separado</option>
-        <option value='Divorciado'".  $divorciado." >Divorciado</option>
-        <option value='Viuvo' ". $viuvo."  >Viúvo</option></br>
+        <option value='solteiro'".$solteiro." >Solteiro</option>
+        <option value='casado'".$casado." >Casado</option>
+        <option value='separado'". $separado." >Separado</option>
+        <option value='divorciado'".  $divorciado." >Divorciado</option>
+        <option value='viuvo' ". $viuvo."  >Viúvo</option></br>
         </select><br>");
 
-        if($linha['sexo']== "Masculino"){
+        if($linha['sexo'] == "masculino"){
             $_checkedMasc = "checked";
             $_checkedFem = "";
         }else{
+         $_checkedMasc = "";  
             $_checkedFem = "checked";
-            $_checkedMasc = "";
         }
         echo ("Sexo:</p>");
         echo ("<input type='radio' name='sexo' value='Masculino'".$_checkedMasc."><label for='sexo'>Masculino</br>");

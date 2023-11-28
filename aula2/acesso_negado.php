@@ -11,8 +11,6 @@
         </h2>
     </body>
 </html>
-
 <?php
-    header ("refresh: 3;url=login.php");
-    include_once ('load.php')
+echo ("Acesso negado")
 ?>

@@ -16,19 +16,19 @@
         <fieldset class="campo">
          <div class="caixa">  
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" value="Nome">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
          </div>
          <div class="caixa">
             <label for="sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome" id="sobrenome" value="Sobrenome">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
         </div>    
           <div class="caixa">  
             <label for="login" class="caixa_texto">Login:</label>
-            <input type="text" name="login" id="login" value="Login">
+            <input type="text" name="login" id="login" placeholder="Login" required>
          </div>
          <div class="caixa">
             <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" value="Senha">  
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>  
         </div>
         <div class="caixa">
             <label for="estcivil">Qual seu estado civil?</label>
@@ -43,7 +43,7 @@
         <div>
               <label for="sexo">Qual o seu sexo?</label><br>
               <label for="sexo">Masculino</label><br>
-              <input type="radio" class="sexo" id="sexo" name="sexo" value="masculino">
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="masculino" required>
               <label for="sexo">Feminino</label><br>
               <input type="radio" class="sexo" id="sexo" name="sexo" value="feminino">
               <label for="sexo">Prefiro não dizer</label><br>
