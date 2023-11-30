@@ -4,6 +4,7 @@ include ("index.php");
 $_id = $_GET["id"];
 
 
+
 $query = "SELECT * FROM tb_login WHERE id =".$_id;
 $result = mysqli_query ($conexao, $query) or die ("erro no select");
    

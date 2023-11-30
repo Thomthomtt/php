@@ -2,8 +2,8 @@
 include_once ('load.php')
 ?>
 <?php
-$_login = "Admin";
-$_senha = "Root123";
+$_login = "";
+$_senha = "1234";
 $_login_form = $_POST["login"];
 $_senha_form = $_POST["senha"];
 if(($_login == $_login_form) and ($_senha == $_senha_form)){ 
