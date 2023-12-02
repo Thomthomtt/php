@@ -3,11 +3,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet"></head>
     <body>
         
-   <h1 style="text-align:center; color:#585859; padding:0; margin:0;  font-family: 'Black Ops One', cursive;">
-    Acessando o sistema
-    </h1> </body>
+        <h1 style="display:flex; text-align:center; justify-content:center; color:#585859; padding:0; margin:0;  font-family: 'Black Ops One', cursive;">
+    Já existe um login com estes dados!
+        </h1> <br>
+        <h2 style="display:flex; text-align:center; justify-content:center; color:#585859; padding:0; margin:0;  font-family: 'Black Ops One', cursive;">
+            Tente novamente!
+        </h2>
+    </body>
 </html>
-<?php
-echo ("Acesso Permitido")
-?>
-  

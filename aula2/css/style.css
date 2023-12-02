@@ -49,6 +49,7 @@ input {
 } 
 select{
     background-color: #D7D7D9;
+    padding: 0.5em;
     border-radius: 0.9em;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none;

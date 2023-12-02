@@ -33,23 +33,23 @@
         <div class="caixa">
             <label for="estcivil">Qual seu estado civil?</label>
               <select name="estcivil" id="estcivil">
-              <option value="solteiro">Solteiro</option>
-              <option value="casado">Casado</option>
-              <option value="separado">Separado</option>
-              <option value="divorciado">Divorciado</option>
-              <option value="viuvo">Viúvo</option>
+              <option value="Solteiro">Solteiro</option>
+              <option value="Casado">Casado</option>
+              <option value="Separado">Separado</option>
+              <option value="Divorciado">Divorciado</option>
+              <option value="Viuvo">Viúvo</option>
             </select>
         </div>
-        <div>
-              <label for="sexo">Qual o seu sexo?</label><br>
+       
+        <div> 
+             <label for="sexo" style="margin-right: 9%;" >Qual o seu sexo?</label><br>
               <label for="sexo">Masculino</label><br>
-              <input type="radio" class="sexo" id="sexo" name="sexo" value="masculino" required>
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="Masculino" required>
               <label for="sexo">Feminino</label><br>
-              <input type="radio" class="sexo" id="sexo" name="sexo" value="feminino">
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="Feminino">
               <label for="sexo">Prefiro não dizer</label><br>
-              <input type="radio" class="sexo" id="sexo" name="sexo" value="prefer">
-        </div>
-            <a href="selecionar_cadastro.php">Cadastros</a>
+              <input type="radio" class="sexo" id="sexo" name="sexo" value="Prefiro_nao_dizer">
+</div>
             <button type="submit" id="botao">Enviar</button>
         </fieldset>
     </form> 
